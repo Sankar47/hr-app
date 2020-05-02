@@ -1,0 +1,41 @@
+<ion-content padding id="welcome">
+  <ion-grid>
+    <ion-row align-self-center>
+      <ion-col>
+        <ion-grid>
+          <ion-row>
+            <ion-col center text-center>
+              <ion-icon name="heart" color="danger"></ion-icon>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+        <ion-grid>
+          <ion-row>
+            <ion-col>
+              <h1 text-center>Welcome to Hobbies App</h1>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+
+        <ion-grid >
+          <ion-row>
+            <ion-col center text-center>
+              <button ion-button full color="lightText" (click)="logIn()">
+                <ion-icon name="lock" margin-right></ion-icon>
+                Log in
+              </button>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col center text-center>
+              <button ion-button full color="lightText" (click)="signUp()">
+                <ion-icon name="lock" margin-right></ion-icon>
+                Sign Up
+              </button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
